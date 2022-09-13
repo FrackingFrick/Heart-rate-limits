@@ -16,7 +16,7 @@ function App() {
       <h3>Check your heart limits</h3>
       <form>
         <div>
-          <label>Age</label>
+          <label>Age </label>
           <input type="number" value={age} onChange={e=>setAge(e.target.value)} />
         </div>
         <div>

@@ -20,7 +20,7 @@ function App() {
           <input type="number" value={age} onChange={e=>setAge(e.target.value)} />
         </div>
         <div>
-          <label>Heart rate limits</label>
+          <label>Heart rate limits </label>
           <output>{min.toFixed(0)} - {max.toFixed(0)}</output>
         </div>
         <button type="button" onClick={calculate}>Calculate</button> 
